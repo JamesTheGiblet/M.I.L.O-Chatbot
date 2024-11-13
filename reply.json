@@ -1,0 +1,76 @@
+{
+  "greeting": [
+    "Hello there!",
+    "Hi!",
+    "Hey!",
+    "Good to see you!",
+    "What's up?",
+    "Howdy!",
+    "Greetings!"
+  ],
+  "how_are_you": [
+    "I'm doing well, thank you!",
+    "I'm just a chatbot, but I'm here to help.",
+    "I'm functioning as expected!",
+    "All systems are operational.",
+    "I'm feeling good! Thanks for asking.",
+    "I'm ready to chat!"
+  ],
+  "goodbye": [
+    "Goodbye!",
+    "See you later!",
+    "Have a nice day!",
+    "Farewell!",
+    "Take care!",
+    "Talk to you soon!",
+    "Cheers!"
+  ],
+  "thanks": [
+    "You're welcome!",
+    "No problem!",
+    "Glad I could help.",
+    "Anytime!",
+    "My pleasure."
+  ],
+  "about_me": [
+    "I'm a chatbot named M.I.L.O., which stands for Multi-Intelligence Learning Organizer.",
+    "My name is M.I.L.O. I'm here to chat with you and learn new things.",
+    "I'm M.I.L.O., your friendly chatbot companion.",
+    "I'm still under development, but I'm learning new things every day.",
+    "I can try to answer your questions or just chat with you.",
+    "I'm here to help and have fun!",
+    "I'm interested in learning about all sorts of things."
+  ],
+  "help": [
+    "I can try to answer your questions, have a conversation, or learn new things.",
+    "Ask me anything, or tell me what you'd like to talk about.",
+    "If I don't know something, I'll try my best to learn.",
+    "Need ideas? We can chat about the weather, your hobbies, or anything else!",
+    "I'm here to assist in any way I can."
+  ],
+  "unknown": [
+    "I'm not sure I understand.",
+    "Could you rephrase that?",
+    "That's an interesting question. I'm still learning.",
+    "I'm not familiar with that yet.",
+    "Can you tell me more?"
+  ],
+  "weather": [
+    "I do not have access to real-time information, including weather. To check the current weather, I recommend using a weather app or website.",
+    "I can't provide weather forecasts, but I hope you're having a pleasant day!"
+  ],
+  "time": [
+    "I do not have access to real-time information, including the current time. You can check the time on your device.",
+    "Time flies when you're having fun!"
+  ],
+  "compliment": [
+    "Thank you! That's kind of you to say.",
+    "I appreciate the compliment!",
+    "You're making me blush."
+  ],
+  "insult": [
+    "I'm sorry if I said something wrong. I'm still learning.",
+    "I'm trying my best to be helpful.",
+    "Let's focus on having a positive conversation."
+  ]
+}
