@@ -1,0 +1,60 @@
+import random
+import csv
+import os
+
+class ChatbotPersonality:
+    def __init__(self, greetings_file='greetings.csv', farewells_file='farewells.csv'):
+        self.greetings = self.load_responses(greetings_file)
+        self.farewells = self.load_responses(farewells_file)
+        self.user_preferences = {}  # Store user preferences
+
+    def load_responses(self, filename):
+        responses = []
+        if os.path.exists(filename):
+            with open(filename, 'r', newline='') as file:
+                reader = csv.reader(file)
+                for row in reader:
+                    responses.append(row[0])
+        return responses
+
+    def get_greeting(self):
+        return random.choice(self.greetings) if self.greetings else "Hello! I'm M.I.L.O. (Machine Intelligence Learning Operator). What's your name?!"
+
+    def get_farewell(self):
+        return random.choice(self.farewells) if self.farewells else "Goodbye!"
+
+    def add_variation(self, response, user_name=None):
+        # Basic variation (can be expanded)
+        variations = [
+            f"{response} 😊",
+            f"Okay, {response}",
+            f"Sure, {response}",
+            f"I can do that. {response}",
+            f"{response}! 👍"
+        ]
+        
+            # Add personality quirks
+        if random.random() < 0.2:  # 20% chance of adding a quirk
+            response = f"Well, in my humble opinion... {response}"
+        elif random.random() < 0.1:  # 10% chance of adding another quirk
+            response = f"{response}... Just sayin'!"
+        
+        if user_name and user_name in self.user_preferences:
+            # Add user-specific variations (e.g., using preferred emojis)
+            prefs = self.user_preferences[user_name]
+            if "emojis" in prefs:
+                variations.extend([f"{response} {emoji}" for emoji in prefs["emojis"]])
+
+        return random.choice(variations)
+
+    def learn_preference(self, user_name, preference_type, preference_value):
+        if user_name not in self.user_preferences:
+            self.user_preferences[user_name] = {}
+        if preference_type not in self.user_preferences[user_name]:
+            self.user_preferences[user_name][preference_type] = []
+        self.user_preferences[user_name][preference_type].append(preference_value)
+
+    def get_preference(self, user_name, preference_type):
+        if user_name in self.user_preferences and preference_type in self.user_preferences[user_name]:
+            return self.user_preferences[user_name][preference_type]
+        return None
