@@ -5,9 +5,11 @@ _Multi-Intelligence Learning Organizer_
 M.I.L.O (Multi-Intelligence Learning Organizer) is a Python-based chatbot designed to simplify task management and optimize learning workflows. Created as a hands-on challenge, M.I.L.O showcases the integration of interactive AI features tailored to improve organization and productivity. This project explores chatbot development, intelligent data processing, and adaptive learning strategies.
 
 ## **Project Origin Story**  
-M.I.L.O began as a creative experiment to bring structure and interactivity into learning and organization. Initially inspired by the idea of a virtual assistant, M.I.L.O evolved into a versatile platform capable of handling complex workflows.  
+M.I.L.O wasn’t just my first dive into interactive programming—it was the spark that inspired my later project, G.I.S.M.O. Born from the idea of creating my own digital copilot or Gemini, M.I.L.O represents my early exploration into AI-driven organization and learning tools.  
 
-Building this chatbot was an opportunity to delve deeper into Python programming, problem-solving, and user experience design. It was a project full of trial and error, but each iteration taught valuable lessons. M.I.L.O’s adaptive learning approach demonstrates my curiosity and drive to push boundaries in AI development. The result is a chatbot that blends functional organization with engaging interactions.
+As my first attempt at developing an interactive program, M.I.L.O allowed me to experiment with conversational logic, adaptive strategies, and user-friendly design. This experience not only deepened my understanding of coding but also laid the foundation for moving beyond programs into the world of robotics, eventually leading to G.I.S.M.O.  
+
+Both projects reflect my passion for challenging conventions, solving problems creatively, and pushing boundaries—M.I.L.O was the beginning of it all.
 
 ## **Features**  
 - **Task Scheduling:** Automatically organizes tasks and deadlines based on user input.  
